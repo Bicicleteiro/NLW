@@ -1,0 +1,34 @@
+body{
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #121214;;
+    color: white;
+}
+header img{
+border-radius: 50%;
+}
+header:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    animation: surgir 0.25s;
+}
+img{
+    width: 300px;
+}
+main *{
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul{
+     display: flex;
+}
+ul:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    animation: surgir 0.25s;
+}
+@keyframes surgir{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
